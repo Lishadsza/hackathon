@@ -1,9 +1,11 @@
 {
   "name": "hackathon",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -22,9 +24,5 @@
   "devDependencies": {
     "@types/express": "^5.0.0"
   },
-  
-    "type": "module"
-  }
-  
-
-
+  "type": "module"
+}
